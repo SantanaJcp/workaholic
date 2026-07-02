@@ -10,7 +10,7 @@ ownership: full | partial
 status: captured
 priority: null
 captured_at: YYYY-MM-DD
- due_date: null
+due_date: null
 definition_confidence: low | medium | high
 blocked_by: []
 approvals:
