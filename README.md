@@ -41,11 +41,15 @@ The prompt pack lives in `system/prompts/`:
 - `05-worker-handoff.md` — prepare bounded execution for a worker thread.
 - `06-closeout-learning.md` — close work and capture lessons.
 
+## Automation Drafts
+
+Reusable automation drafts live in `system/automations/`. These files are system-definition artifacts; activating an automation still happens through Codex or a future adapter.
+
 ## Repository Structure
 
 ```txt
 AGENTS.md   Agent operating contract.
-system/     Rules, state machine, Engram object model, reusable prompts, templates, and agent behavior.
+system/     Rules, state machine, Engram object model, reusable prompts, automation drafts, templates, and agent behavior.
 inbox/      Optional exports/examples of raw captures; not the primary store.
 work-items/ Optional exports/examples of work-items; not the primary store.
 reports/    Optional exports/examples of reports; not the primary store.

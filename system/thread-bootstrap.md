@@ -12,6 +12,7 @@ First, read these files before proposing changes:
 - `system/work-item-template.md`
 - `system/chief-of-staff.md`
 - `system/prompts/README.md`
+- `system/automations/README.md`
 
 Then read recent Engram context for the `workaholic` project and search for related decisions before changing the system contract.
 

@@ -49,3 +49,8 @@ Ask external sources or the user only when Engram and written work-item context 
 ## Reusable Prompt
 
 Use `system/prompts/03-chief-of-staff-heartbeat.md` for recurring Chief of Staff reviews. Use `system/prompts/05-worker-handoff.md` only when a normalized work-item is ready for bounded execution.
+
+
+## Automation Draft
+
+Use `system/automations/daily-command-brief.md` as the source draft for the read-only weekday Chief of Staff Daily Command Brief automation.
