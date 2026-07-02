@@ -1,6 +1,6 @@
 # State Machine
 
-Work-items move through explicit states. State transitions should be recorded in the work-item log.
+Work-items move through explicit states. State transitions must be recorded in Engram, either in the work-item log or as linked `status_change` records.
 
 ## Primary States
 
@@ -19,7 +19,7 @@ waiting_external
 
 ## Initial Rules
 
-- Raw input starts in `captured`.
+- Raw input starts as `captured` once saved as an Engram `raw_capture`.
 - No item moves to `in_progress` without a clear plan.
 - No item is delivered or deployed without user approval.
 - Blocked items must include blocker reason, owner, and next follow-up date.
