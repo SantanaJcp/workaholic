@@ -14,6 +14,10 @@ Use one prompt at a time. Do not paste the whole pack into a thread. Load the sm
 4. `04-daily-report.md` — generate the daily decision report from Engram records.
 5. `05-worker-handoff.md` — prepare a bounded execution prompt for a worker thread.
 6. `06-closeout-learning.md` — close work and capture lessons after delivery.
+7. `07-channel-intake-router.md` — capture and classify an incoming channel event.
+8. `08-correlation-normalizer.md` — correlate signals and create or merge one canonical work-item.
+9. `09-read-only-diagnostician.md` — diagnose incidents read-only with cited evidence.
+10. `10-approval-request.md` — convert triage/diagnosis into one actionable approval request.
 
 ## Research-Backed Principles
 

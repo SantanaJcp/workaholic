@@ -54,3 +54,8 @@ Use `system/prompts/03-chief-of-staff-heartbeat.md` for recurring Chief of Staff
 ## Automation Draft
 
 Use `system/automations/daily-command-brief.md` as the source draft for the read-only weekday Chief of Staff Daily Command Brief automation.
+
+## Always-On Intake
+
+- Route incoming `CHANNEL_EVENT:` envelopes through `system/automations/always-on-intake.md`.
+- Approval surfaces follow `system/architecture/autonomy-and-approval.md`.

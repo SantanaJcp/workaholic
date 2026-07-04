@@ -36,4 +36,5 @@ blocked-work-follow-up.md
 - `semi-automatic-intake.md` — on-demand `INTAKE:` normalization prompt.
 - `notification-policy.md` — draft-only notification policy and message shape.
 - `personal-alert-heartbeat.md` — short user-only action alerts for review, MR, deploy, blockers, decisions, and closure.
+- `always-on-intake.md` — on-demand `CHANNEL_EVENT:` simulated always-on intake pipeline (layer 5).
 - `automation-template.md` — base structure for future automation drafts.

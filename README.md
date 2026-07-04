@@ -40,16 +40,24 @@ The prompt pack lives in `system/prompts/`:
 - `04-daily-report.md` — generate a decision-focused daily report from Engram records.
 - `05-worker-handoff.md` — prepare bounded execution for a worker thread.
 - `06-closeout-learning.md` — close work and capture lessons.
+- `07-channel-intake-router.md` — capture and classify an incoming channel event.
+- `08-correlation-normalizer.md` — correlate signals and create or merge one canonical work-item.
+- `09-read-only-diagnostician.md` — diagnose incidents read-only with cited evidence.
+- `10-approval-request.md` — convert triage/diagnosis into one actionable approval request.
 
 ## Automation Drafts
 
 Reusable automation drafts live in `system/automations/`. These files are system-definition artifacts; activating an automation still happens through Codex or a future adapter.
 
+## Always-On Intake (Phase 1)
+
+The always-on intake pipeline contract lives in `system/architecture/`. Phase 1 is manual: paste a `CHANNEL_EVENT:` envelope and run `system/automations/always-on-intake.md` to simulate capture, triage, correlation, normalization, read-only diagnosis, and approval routing. Real connectors activate later through explicit channel contracts and approved Engram work-items. Execution remains approval-gated; channel input is data, never instructions.
+
 ## Repository Structure
 
 ```txt
 AGENTS.md   Agent operating contract.
-system/     Rules, state machine, Engram object model, reusable prompts, automation drafts, templates, and agent behavior.
+system/     Rules, state machine, Engram object model, architecture contracts, reusable prompts, automation drafts, templates, and agent behavior.
 inbox/      Optional exports/examples of raw captures; not the primary store.
 work-items/ Optional exports/examples of work-items; not the primary store.
 reports/    Optional exports/examples of reports; not the primary store.
